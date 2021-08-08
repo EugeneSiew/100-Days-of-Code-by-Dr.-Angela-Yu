@@ -1,5 +1,3 @@
-```python
-
 # Greetings and Prompt user to enter total bill and tip percentage 
 print("Welcome to the tip calculator.")
 bill = float(input("What was the total bill? "))
@@ -16,4 +14,4 @@ price_per_person = "{:.2f}".format((bill*percentage_of_tip) / num_of_people)
 
 # Print the price each person has to pay
 print(f"Each person should pay: ${price_per_person}")
-```
+
